@@ -12,7 +12,7 @@ jobs:
       - name: Github Releases To Discord
         uses: RifkyHernanda3/publish-release@v1.0 # Uses an action in the root directory
         with:
-          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          webhook_url: ${{ inputs.WEBHOOK_URL }}
           username: "Release Changelog"
           avatar_url: "https://64.media.tumblr.com/a430ab8260519fddb01972b5339b40dd/4c5f2cc704cd20da-5a/s1280x1920/f85ece47459b5650f1fdd2e2e0aa3d44c2d06005.png"
           footer_title: "Changelog"
