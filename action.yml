@@ -6,12 +6,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Set ENV_SHORTNAME
-      shell: bash
-      run: echo "ENV_SHORTNAME=${{ inputs.ENV_SHORTNAME }}" >> $GITHUB_ENV
-    - name: Debug ENV_SHORTNAME
-      shell: bash
-      run: echo "ENV_SHORTNAME is $ENV_SHORTNAME"
     - name: Checkout
       uses: actions/checkout@v3
     - name: Github Releases To Discord
