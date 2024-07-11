@@ -3,6 +3,9 @@ inputs:
   ENV_SHORTNAME:
     description: "ENV_SHORTNAME"
     required: true
+  WEBHOOK_URL: 
+    description: "WEBHOOK_URL"
+    required: true
 runs:
   using: "composite"
   steps:
