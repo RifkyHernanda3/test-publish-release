@@ -4,3 +4,6 @@
 [submodule "cache-subrepo"]
 	path = cache-subrepo
 	url = https://github.com/RifkyHernanda3/test-subrepo.git
+[submodule "cache-subrepos"]
+	path = cache-subrepos
+	url = https://github.com/RifkyHernanda3/test-subrepo.git
